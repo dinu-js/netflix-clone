@@ -1,0 +1,87 @@
+.loginScreen__logo{
+    position: fixed;
+    left: 0;;
+    object-fit: contain;
+    width: 150px;
+    padding-left: 20px;
+}
+
+.loginScreen{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url("http://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81-d2d78ddce803/55d71bba-960a-409d-8560-c798ce5cdc03/CA-en-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__button {
+    position: fixed;
+    right:20px;
+    top:20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    border:none
+}
+
+.loginScreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    /*tbd gradient*/
+}
+
+.loginScreen__body{
+    position: absolute;
+    top: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+.loginScreen__body > h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.loginScreen__body > h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginScreen__input > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen__getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginScreen__input{
+    margin: 20px;
+}
